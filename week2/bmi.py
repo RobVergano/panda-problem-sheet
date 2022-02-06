@@ -13,7 +13,7 @@ height = int(input("Enter your height (cm): "))
 #line 11 and 12 asks the user for weight and height. int assigns a numeric value to the variable.
 heightm = height/100
 #line 14 to change from cm to m
-BMI = weight/(heightm)**2
+BMI = str(weight/(heightm)**2)
 #line 16 calculates the BMI with the values of line 11 and 14
-print (BMI)
+print ("Your BMI is " + BMI)
 #line 18 prints the value of the BMI
