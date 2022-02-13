@@ -17,3 +17,13 @@ BMI = str(weight/(heightm)**2)
 #line 16 calculates the BMI with the values of line 11 and 14
 print ("Your BMI is " + BMI)
 #line 18 prints the value of the BMI
+value = int(float(BMI))
+if value < 18.5:
+    print ("Underweight")
+elif value <24.9:
+    print ("Healthy weight")    
+elif value <29.9:
+    print("Overweight")
+else:
+    print ("Obesity")
+
