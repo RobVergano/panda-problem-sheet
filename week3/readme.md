@@ -8,10 +8,27 @@ To do that:
 4. For "c", we define the length of "b" (len(b)) and using "range" we will create a sequence of numbers based on the value of len(b)
 5. For this sequence "i", we will create a loop, which only allows the exit of even numbers. 
 6. This loop divides each number in "i" by 2. A remainder equal to zero means that i is an even number.
-7. "!=0"(not equal to) will be the condition to exit the loop. "zero not iqual to zero" is a False statement.
-8. A false statement allows the even number exit the loop.
-9. This even number is converted back to the character according to the position hold in the sequence "b[i]"
-10. This gives a value to "c" which we output.
-11. The program runs this loop for every value in the range until the sequence is finished. 
+7. "==0"(equal to) will be the condition to exit the loop.
+8.  This number is converted back to the character according to the position hold in the sequence "b[i]"
+9. This gives a value to "c" which we output.
+10. The program runs this loop for every value in the range until the sequence is finished. 
 
-This way we get the second or even characters of the input sentence.
+REFERENCES
+
+https://www.w3schools.com/python/python_howto_reverse_string.asp
+
+https://stackoverflow.com/questions/29002097/empty-string-in-python
+
+https://codippa.com/how-to-print-characters-at-even-position-in-string-in-python/
+
+https://stackoverflow.com/questions/63789505/printing-every-other-letters-of-a-string-without-the-spaces-on-python
+
+https://www.journaldev.com/23647/python-reverse-string
+
+
+
+
+
+
+
+
