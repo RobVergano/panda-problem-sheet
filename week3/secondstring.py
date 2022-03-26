@@ -2,7 +2,7 @@
 #this program asks for a string and outputs every second character in reverse order
 #author: Roberto Vergano
 
-from calendar import c
+
 
 
 print("Welcome to the Reversator!")
