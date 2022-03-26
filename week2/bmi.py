@@ -6,18 +6,26 @@
 # Kg = Variable weight
 # m = Variable height
 
+#Line 9 to make an introduction user friendly.
 print ("Welcome to BMI Calculator!")
-#Line 9 to make it more user friendly.
-weight = int(input("Enter your weight (Kg): "))
-height = int(input("Enter your height (cm): "))
-#line 11 and 12 asks the user for weight and height. int assigns a numeric value to the variable.
+
+#line 13 and 14 asks the user for weight and height. int assigns a numeric value to the variable. float function converts the variable in a float number in case the user enters a decimal number.
+weight = int(float(input("Enter your weight (Kg): ")))
+height = int(float(input("Enter your height (cm): ")))
+
+#line 17 to change from cm to m
 heightm = height/100
-#line 14 to change from cm to m
-BMI = str(weight/(heightm)**2)
-#line 16 calculates the BMI with the values of line 11 and 14
-print ("Your BMI is " + BMI)
-#line 18 prints the value of the BMI
-value = int(float(BMI))
+
+#line 20 calculates the BMI with the values of line 13 and 17
+BMI =(weight/(heightm)**2)
+
+#Line 23, using the round function we output only 2 decimals.
+value = round(BMI,2)
+
+#Line 26 outputs the result. We use "str" to change the variable from numerical to text type.
+print ("Your BMI is " + str(value))
+
+# Usinf if, elif and else function we create a range of values according to the BMI. 
 if value < 18.5:
     print ("Underweight")
 elif value <24.9:
